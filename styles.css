@@ -1,0 +1,45 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+    background-color: #3e4953;
+    color: aliceblue;
+    overflow:hidden;
+}
+.mainhead{
+    font-size: 40px;
+    
+}
+.subhead{
+    color: #cad1d8;
+}
+.intro_part{
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1rem, 1rem;
+}
+
+.column{
+    float: right;
+    width: 250px;
+    height: 380px;
+
+}
+
+.right{
+    position: relative;left: 0px; top:0px;
+    background-color: bisque;
+    background-size: 100px;
+    padding-left: 1%;
+    text-align-last: initial;
+    position: relative;
+
+}
+
+
+.left{
+ 
+    max-width: 500px;
+}
