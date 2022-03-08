@@ -135,27 +135,39 @@ html{
     flex-direction: column;
     background-color: black;
     color: white;
-    align-items: center;
     padding: 20px;
+    font-size: 22px;
 }
 
-.gallery{
+.work{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    box-sizing: border-box;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid white;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, cyan, hsl(240, 100%, 50%));
+    background-size: 100% 100%;
+    transition: all .8s;
 }
 
-.gallery img{
-    width: 500px;
-    height: 250px;
-    margin: 10px;
+.work:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px cyan;
 }
+
 
 #skills{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    font-size: 22px;
 }
 
 .row{
