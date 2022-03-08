@@ -126,6 +126,10 @@ html{
     margin-bottom: 20px;
 }
 
+#intro p{
+    font-size: 30px;
+}
+
 #portfolio{
     display: flex;
     flex-direction: column;
@@ -143,8 +147,8 @@ html{
 }
 
 .gallery img{
-    width: 360px;
-    height: 240px;
+    width: 500px;
+    height: 250px;
     margin: 10px;
 }
 
@@ -187,7 +191,7 @@ html{
 .box img{
     width: 80px;
     height: 80px;
-    background-color: orange;
+    background-color: white;
     padding: 10px;
 }
 
